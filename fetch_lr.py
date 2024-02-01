@@ -7,6 +7,6 @@ mydb = myconn.connect(
 
 
 db_cursor = mydb.cursor()
-db_cursor.execute("SELECT LR FROM subdata")
+db_cursor.execute("SELECT LR FROM subdata")  # select Total Timing from subdata  (alter this while searchig for total time)
 for i in db_cursor:
     print(i)
