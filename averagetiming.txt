@@ -1,1 +1,1 @@
-SET AvgTime = (SELECT AVG(TotalTiming) FROM subdata WHERE Subjects = 'Array') WHERE Subjects = 'Array';
+UPDATE subdata SET AvgTime = (SELECT AVG(TotalTiming) WHERE Subjects = 'Queue') WHERE Subjects = 'Queue';
