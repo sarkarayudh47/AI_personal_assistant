@@ -1,0 +1,1 @@
+SET AvgTime = (SELECT AVG(TotalTiming) FROM subdata WHERE Subjects = 'Array') WHERE Subjects = 'Array';
